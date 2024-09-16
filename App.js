@@ -46,4 +46,38 @@ const styles = StyleSheet.create({
     borderRadius: 100,
     backgroundColor: '#000000'
   },
+  view1: {
+    flex: 1,
+    alignItems: 'center',
+  },
+  txtView1: {
+    fontSize: 25,
+    fontWeight: 'bold'
+  },
+  view2: {
+    flex: 1,
+    alignItems: 'center'
+  },
+  txtView2: {
+    fontSize: 15,
+    fontWeight: 'bold'
+  },
+  view3: {
+    flex: 1,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    gap: 25
+  },
+  btn: {
+    backgroundColor: '#E3C000',
+    width: 120,
+    height: 48,
+    borderRadius: 15,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  txtBtn: {
+    fontSize: 20,
+    fontWeight: 'bold',
+  }
 });
